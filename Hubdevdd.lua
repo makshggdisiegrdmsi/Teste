@@ -5,12 +5,11 @@ local Libary = loadstring(game:HttpGet("https://raw.githubusercontent.com/lynix-
 
 workspace.FallenPartsDestroyHeight = -math.huge
 
-local Window = redzlib:MakeWindow({
+local Window = Libary:MakeWindow({
     Title = "Nick Hub | BrookhavenRP 1.2.0",
     SubTitle = "by Nickzin",
     Flags = "Nick"
   })
-
   Window:AddMinimizeButton({
     Button = { Image = "rbxassetid://138397499303140, BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(35, 1) },
