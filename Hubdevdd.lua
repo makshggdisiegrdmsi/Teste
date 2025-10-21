@@ -7,6 +7,7 @@ workspace.FallenPartsDestroyHeight = -math.huge
 
 local Window = Libary:MakeWindow({
     Title = "Nick Hub | BrookhavenRP 1.2.0",
+    LoadText = " Carregando"
     SubTitle = "by Nickzin",
     Flags = "Nick"
   })
