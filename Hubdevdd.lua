@@ -1,7 +1,7 @@
 --// Carregar Tela de carregamento 
 loadstring(game:HttpGet("https://pastebin.com/raw/4nHqUmpH"))()
 
-local Libary = loadstring(game:HttpGet("https://raw.githubusercontent.com/lynix-dev/UI-library-/refs/heads/main/magnusuilib.txt"))()
+local Libary = loadstring(game:HttpGet("https://raw.githubusercontent.com/nickainzn/Auto-coin/main/nickuilib.txt"))()
 
 workspace.FallenPartsDestroyHeight = -math.huge
 
